@@ -26,7 +26,7 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 INPUT_DTYPE = torch.float16 if DEVICE == "cuda" else torch.float32
 OUTPUT_DTYPE = torch.float32
 ATTENTION_DTYPE = torch.long
-HUGGINGFACE_TOKEN = "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"
+HUGGINGFACE_TOKEN = "" # To be set/loaded securely
 
 TRAINING_ARGUMENTS = {
     "default": {

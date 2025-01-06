@@ -12,7 +12,7 @@ from typing import Dict
 
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-HUGGINGFACE_TOKEN = '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'
+HUGGINGFACE_TOKEN = "" # To be set/loaded securely
 MODEL_NAME = "suno/bark-small"
 SELECTED_SPEAKERS = ["v2/en_speaker_1", "v2/en_speaker_7", "v2/en_speaker_9", "v2/fr_speaker_2", "v2/fr_speaker_7"]
 TOTAL_SENTENCES_PER_SPEAKER = 10000
